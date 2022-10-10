@@ -16,6 +16,7 @@
 		8521E84928F487BD007E5DD5 /* TriviaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8521E84828F487BD007E5DD5 /* TriviaAppTests.swift */; };
 		8521E85328F487BD007E5DD5 /* TriviaAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8521E85228F487BD007E5DD5 /* TriviaAppUITests.swift */; };
 		8521E85528F487BD007E5DD5 /* TriviaAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8521E85428F487BD007E5DD5 /* TriviaAppUITestsLaunchTests.swift */; };
+		8521E86228F48C48007E5DD5 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 8521E86128F48C48007E5DD5 /* Documentation.docc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		8521E84E28F487BD007E5DD5 /* TriviaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriviaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8521E85228F487BD007E5DD5 /* TriviaAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaAppUITests.swift; sourceTree = "<group>"; };
 		8521E85428F487BD007E5DD5 /* TriviaAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8521E86128F48C48007E5DD5 /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		8521E82528F487BC007E5DD5 = {
 			isa = PBXGroup;
 			children = (
+				8521E86128F48C48007E5DD5 /* Documentation.docc */,
 				8521E83028F487BC007E5DD5 /* TriviaApp */,
 				8521E84728F487BD007E5DD5 /* TriviaAppTests */,
 				8521E85128F487BD007E5DD5 /* TriviaAppUITests */,
@@ -261,6 +264,7 @@
 				8521E83628F487BC007E5DD5 /* ViewController.swift in Sources */,
 				8521E83228F487BC007E5DD5 /* AppDelegate.swift in Sources */,
 				8521E83428F487BC007E5DD5 /* SceneDelegate.swift in Sources */,
+				8521E86228F48C48007E5DD5 /* Documentation.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
