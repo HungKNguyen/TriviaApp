@@ -21,14 +21,14 @@ Two Buttons:
 One Label:
 1: Place to provide user feedback if not valid
 
-### Tab Bar (Scene Group #3)
+### Tab Bar View (Scene Group #3)
 This tab bar have 3 options
 Three tab buttons:
 1: Press to show tab about user personal info (Scene #3A)
 2: Press to show tab about taking quizzes (Scene #3B)
 3: Press to show leaderboard (Scene #3C)
 
-### Profile Tab (Scene #3A)
+### Profile View (Scene #3A)
 This is the place where user can view their username, password and score as well as log out
 Three labels:
 1: Show username
@@ -37,13 +37,18 @@ Three labels:
 One button:
 1: Press to log out -> Move to Scene #2
 
-### Quizzes (Scene Group #3B)
+### Quizzes View (Scene Group #3B)
 This is the place where you can view the list of quizzes
 Table views:
 Each cell shows the title and how many questions that quiz have
 User can press on the quiz to move to that quiz specifically -> Move to Scene #4
 
-### Questions (Scene #4)
+### Leader Board View (Scene Group #3C)
+This is the view to view the leaderboard
+Table views:
+Each cell show the ranking, username, and score
+
+### Questions View (Scene #4)
 This is the place where to user can view all questions of a quiz
 Table views:
 Each cell show the question
@@ -51,7 +56,7 @@ User can press on the question to move to that question specifically -> Move to 
 One Button:
 1: Press to go back to the list of quizzes -> move to Scene Group #3 and Scene #3B
 
-### Question (Scene #5)
+### Question View (Scene #5)
 This is the place where the user can answer a question
 Two labels:
 1: Label to show question
